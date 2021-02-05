@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Test Sub</string>
+    <string name="app_name">Kuku Recipe</string>
+    <string name="title_des">Sticky and Easy Honey Garlic Chicken made simple, with the most amazing and addictive 5-ingredient honey garlic sauce that is so good you’ll want it on everything! Quick and easy using chicken thighs or breasts, your new family favourite chicken dinner is here!</string>
+    <string name="title">Chicken Recipe</string>
+    <string name="nutritions">Nutritions</string>
 </resources>
