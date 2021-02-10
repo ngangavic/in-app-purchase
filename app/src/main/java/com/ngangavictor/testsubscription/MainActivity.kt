@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil
 import com.android.billingclient.api.*
 import com.bumptech.glide.Glide
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 import com.ngangavictor.testsubscription.adapters.ProductsAdapter
 import com.ngangavictor.testsubscription.databinding.ActivityMainBinding
 import com.ngangavictor.testsubscription.dialog.SKUDialog
@@ -33,7 +34,10 @@ class MainActivity : AppCompatActivity(), PurchasesUpdatedListener {
 
         setupBillingClient()
 
-        binding.extendedFab.setOnClickListener { onLoadProductsClicked() }
+        binding.extendedFab.setOnClickListener {
+//            onLoadProductsClicked()
+            Snackbar.make(findViewById(android.R.id.content),"Not allowed",Snackbar.LENGTH_LONG).show()
+        }
 
     }
 
